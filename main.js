@@ -14,7 +14,17 @@ thirteen.style.opacity = 0.5;
 const three = document.querySelector("#item-3");
 three.innerText = "I say, Hi!";
 
+const sixteen = document.querySelector("#item-16");
+sixteen.innerText = "Won't be fooled again.";
+sixteen.className = "item";
+
 // img
 const image = document.querySelector("img");
 image.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
 image.height = "300";
+
+// new img
+const myImage = document.querySelector("#new_image");
+myImage.src = "https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash.jpg";
+myImage.height = "300";
+
